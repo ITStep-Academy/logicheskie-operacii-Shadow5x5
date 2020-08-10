@@ -2,11 +2,10 @@
 #include <stdbool.h>
 
 int main() {
-	int x, y, z;
+	int x;
 	scanf_s("%d", &x);
-	scanf_s("%d", &y);
-	scanf_s("%d", &z);
-	printf("%d", (x % 5 == 0) + (y % 5 == 0) + (z % 5 == 0) == 1);
+	
+	printf("%d", x >= 1000 && x != 4999 && x <= 9999);
 		
 	return 0;
 }							
